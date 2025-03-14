@@ -2,7 +2,7 @@
 :root {
     /* here variables goes */
     --color-primary: #cb5c47;
-  }
+    --color-backbeige:#ffc95f;
   
   /* importar bootstrap */
   @import '~bootstrap/dist/css/bootstrap.min.css';
@@ -11,7 +11,9 @@
     color: var(--color-primary);
   }
   .fotoperfil{max-width: 150 px;}
-
+body {
+  background-color: rgb(255, 248, 226) ;
+}
   body { color: rgb(51, 105, 153);
     text-align: center;
     font-family: "Lobster", sans-serif;
