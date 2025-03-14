@@ -10,4 +10,22 @@
   .btn--primary {
     color: var(--color-primary);
   }
-  .fotoperfil{max-width: 250px;}
+  .fotoperfil{max-width: 150 px;}
+
+  body { color: rgb(51, 105, 153);
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+   h2 {
+    color: red;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  p {
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+  }
