@@ -3,6 +3,10 @@
     /* here variables goes */
     --color-primary: #cb5c47;
     --color-backbeige:#ffc95f;
+    --color-plump: #4A073A;
+    --color-cream: #FFFCE6;
+
+
   
   /* importar bootstrap */
   @import '~bootstrap/dist/css/bootstrap.min.css';
@@ -11,9 +15,7 @@
     color: var(--color-primary);
   }
   .fotoperfil{max-width: 150 px;}
-body {
-  background-color: rgb(255, 248, 226) ;
-}
+body.main{background-color: var(--color-cream);}
   body { color: rgb(51, 105, 153);
     text-align: center;
     font-family: "Lobster", sans-serif;
@@ -23,11 +25,19 @@ body {
     color: red;
     text-align: center;
     font-family: "Lobster", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
   }
   p {
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: <400>;
+  }
+
+  h4.subtittle {
+    color: var(--color-primary);
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
